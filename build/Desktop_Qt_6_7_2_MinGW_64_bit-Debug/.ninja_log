@@ -1,9 +1,9 @@
 # ninja log v6
 2	430	7475669594731496	Touchstone_Task_autogen/timestamp	9e96041e6210bdcf
+2	430	7475669594731496	C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Touchstone_Task_autogen/mocs_compilation.cpp	9e96041e6210bdcf
 2	430	7475669594731496	Touchstone_Task_autogen/mocs_compilation.cpp	9e96041e6210bdcf
 2	430	7475669594731496	C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Touchstone_Task_autogen/timestamp	9e96041e6210bdcf
-2	430	7475669594731496	C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Touchstone_Task_autogen/mocs_compilation.cpp	9e96041e6210bdcf
+442	2004	7475669595416268	CMakeFiles/Touchstone_Task.dir/mainwindow.cpp.obj	eb5b9569a09ac0
 435	1937	7475669595346192	CMakeFiles/Touchstone_Task.dir/Touchstone_Task_autogen/mocs_compilation.cpp.obj	a789c82d39ddb7d9
 439	1966	7475669595386265	CMakeFiles/Touchstone_Task.dir/main.cpp.obj	ca0434ffdd9d1750
-442	2004	7475669595416268	CMakeFiles/Touchstone_Task.dir/mainwindow.cpp.obj	eb5b9569a09ac0
 2005	2192	7475669611043097	Touchstone_Task.exe	3e536e61ef8fd758
