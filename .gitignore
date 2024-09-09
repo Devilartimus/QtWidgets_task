@@ -1,5 +1,3 @@
-# Игнорировать файл CMakeLists.txt.user
 CMakeLists.txt.user
 
-# Игнорировать директорию build и всё её содержимое
 build/
