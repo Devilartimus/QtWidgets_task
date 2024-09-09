@@ -3,10 +3,8 @@
 
 #include <QMainWindow>
 #include <QFileDialog>
-#include <QPainter>
-#include <QLabel>
-#include <QWidget>
-
+#include <QMessageBox>
+#include <QVBoxLayout>
 #include "graphwidget.h"
 
 QT_BEGIN_NAMESPACE
@@ -27,9 +25,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     GraphWidget *graphWidget;
-    QVector<QPointF> dataPoints;
     bool loadTouchstoneFile(const QString &fileName);
-    bool isFileLoading = false;
 };
 
 #endif // MAINWINDOW_H
