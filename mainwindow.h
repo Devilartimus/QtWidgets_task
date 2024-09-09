@@ -5,6 +5,7 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QVBoxLayout>
+
 #include "graphwidget.h"
 
 QT_BEGIN_NAMESPACE
@@ -20,12 +21,12 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void onLoadButtonClicked();
 
 private:
     Ui::MainWindow *ui;
     GraphWidget *graphWidget;
-    bool loadTouchstoneFile(const QString &fileName);
+    QVector<QPointF> loadTouchstoneFile(const QString &fileName);
 };
 
 #endif // MAINWINDOW_H

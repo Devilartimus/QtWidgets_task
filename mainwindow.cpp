@@ -9,12 +9,16 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    setWindowTitle("Отображение графика");
+    this->setFixedSize(800,600);
+
+    setWindowTitle("Graph display");
+
+    ui->statusbar->showMessage(tr("Select file"));
 
     QVBoxLayout *layout = new QVBoxLayout(ui->widget);
     layout->addWidget(graphWidget);
 
-    connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
+    connect(ui->LoadButton, &QPushButton::clicked, this, &MainWindow::onLoadButtonClicked);
 }
 
 MainWindow::~MainWindow()
@@ -23,45 +27,45 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::onLoadButtonClicked()
 {
-    disconnect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
+    graphWidget->clearDataPoints();
 
-    QString filename = QFileDialog::getOpenFileName(this, "Открыть файл Touchstone", "", "Touchstone Files (*.s1p *.s2p)", nullptr, QFileDialog::DontUseNativeDialog);
+    //according to Touchstone spec : https://ibis.org/connector/touchstone_spec11.pdf
+    //Touchstone file can have extensions as .s1p and .s2p
+    QString filename = QFileDialog::getOpenFileName(this, "Open Touchstone file", "", "Touchstone Files (*.s1p *.s2p)", nullptr, QFileDialog::DontUseNativeDialog);
 
     if (filename.isEmpty())
     {
-        ui->label->setText("Файл не выбран");
-        QMessageBox::warning(this, "Ошибка", "Файл не выбран");
-        connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
+        ui->statusbar->showMessage(tr("File not selected"));
+        QMessageBox::warning(this, "Error", "File not selected");
         return;
-    }else
-    {
-        connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
     }
 
-    graphWidget->clearDataPoints();
+    auto points = loadTouchstoneFile(filename);
 
-    if (!loadTouchstoneFile(filename))
+    if (points.isEmpty())
     {
-        ui->label->setText("Ошибка при загрузке файла");
-        QMessageBox::critical(this, "Ошибка", "Невозможно загрузить файл. Проверьте формат и повторите попытку.");
-    } else
-    {
-        ui->label->setText("Файл успешно загружен");
-        setWindowTitle("График: " + filename);
+        ui->statusbar->showMessage(tr("Error while loading the file"));
+        QMessageBox::critical(this, "Error", "Unable to load the file. Check it's format and try again.");
+        return;
     }
+
+    graphWidget->setDataPoints(points);
+    ui->statusbar->showMessage(tr("File succesfully loaded"));
+    setWindowTitle("Graph: " + filename);
 }
 
-bool MainWindow::loadTouchstoneFile(const QString &filename)
+QVector<QPointF> MainWindow::loadTouchstoneFile(const QString &filename)
 {
+    QVector<QPointF> points{};
+
     QFile file(filename);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
-        return false;
+        return points;
 
 
     QTextStream in(&file);
-    QVector<QPointF> points;
 
     while (!in.atEnd())
     {
@@ -71,27 +75,26 @@ bool MainWindow::loadTouchstoneFile(const QString &filename)
 
         QStringList values = line.split(' ', Qt::SkipEmptyParts);
         if (values.size() < 3)
-            return false;
+            return points;
 
-        bool check;
+        bool check{};
 
         double freq = values[0].toDouble(&check);
         if (!check)
-            return false;
+            return points;
 
         double s11Real = values[1].toDouble(&check);
         if (!check)
-            return false;
+            return points;
 
         double s11Imag = values[2].toDouble(&check);
         if (!check)
-            return false;
+            return points;
 
-        double s11LogMag = 20 * log10(sqrt(s11Real * s11Real + s11Imag * s11Imag));
+        double s11LogMag = 20 * log10(abs(sqrt(s11Real * s11Real + s11Imag * s11Imag)));
 
         points.append(QPointF(freq, s11LogMag));
     }
-
-    graphWidget->setDataPoints(points);
-    return true;
+    return points;
 }
+
