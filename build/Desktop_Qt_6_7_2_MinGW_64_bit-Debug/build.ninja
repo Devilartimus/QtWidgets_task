@@ -73,6 +73,14 @@ build CMakeFiles/Touchstone_Task.dir/mainwindow.cpp.obj: CXX_COMPILER__Touchston
   OBJECT_DIR = CMakeFiles\Touchstone_Task.dir
   OBJECT_FILE_DIR = CMakeFiles\Touchstone_Task.dir
 
+build CMakeFiles/Touchstone_Task.dir/graphwidget.cpp.obj: CXX_COMPILER__Touchstone_Task_unscanned_Debug C$:/Users/user/Desktop/test/Touchstone_Task/graphwidget.cpp || cmake_object_order_depends_target_Touchstone_Task
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Touchstone_Task.dir\graphwidget.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Touchstone_Task_autogen/include -isystem E:/qt/6.7.2/mingw_64/include/QtCore -isystem E:/qt/6.7.2/mingw_64/include -isystem E:/qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem E:/qt/6.7.2/mingw_64/include/QtWidgets -isystem E:/qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Touchstone_Task.dir
+  OBJECT_FILE_DIR = CMakeFiles\Touchstone_Task.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Touchstone_Task
@@ -81,7 +89,7 @@ build CMakeFiles/Touchstone_Task.dir/mainwindow.cpp.obj: CXX_COMPILER__Touchston
 #############################################
 # Link the executable Touchstone_Task.exe
 
-build Touchstone_Task.exe: CXX_EXECUTABLE_LINKER__Touchstone_Task_Debug CMakeFiles/Touchstone_Task.dir/Touchstone_Task_autogen/mocs_compilation.cpp.obj CMakeFiles/Touchstone_Task.dir/main.cpp.obj CMakeFiles/Touchstone_Task.dir/mainwindow.cpp.obj | E$:/qt/6.7.2/mingw_64/lib/libQt6Widgets.a E$:/qt/6.7.2/mingw_64/lib/libQt6Gui.a E$:/qt/6.7.2/mingw_64/lib/libQt6Core.a E$:/qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || Touchstone_Task_autogen Touchstone_Task_autogen_timestamp_deps
+build Touchstone_Task.exe: CXX_EXECUTABLE_LINKER__Touchstone_Task_Debug CMakeFiles/Touchstone_Task.dir/Touchstone_Task_autogen/mocs_compilation.cpp.obj CMakeFiles/Touchstone_Task.dir/main.cpp.obj CMakeFiles/Touchstone_Task.dir/mainwindow.cpp.obj CMakeFiles/Touchstone_Task.dir/graphwidget.cpp.obj | E$:/qt/6.7.2/mingw_64/lib/libQt6Widgets.a E$:/qt/6.7.2/mingw_64/lib/libQt6Gui.a E$:/qt/6.7.2/mingw_64/lib/libQt6Core.a E$:/qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || Touchstone_Task_autogen Touchstone_Task_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = E:/qt/6.7.2/mingw_64/lib/libQt6Widgets.a  E:/qt/6.7.2/mingw_64/lib/libQt6Gui.a  E:/qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  E:/qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

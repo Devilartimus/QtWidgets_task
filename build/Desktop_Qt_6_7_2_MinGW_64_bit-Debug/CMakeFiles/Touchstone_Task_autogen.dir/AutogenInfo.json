@@ -257,6 +257,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/user/Desktop/test/Touchstone_Task/graphwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_graphwidget.cpp",
+			null
+		],
+		[
 			"C:/Users/user/Desktop/test/Touchstone_Task/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -334,6 +340,11 @@
 	"SETTINGS_FILE" : "C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/Touchstone_Task_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/user/Desktop/test/Touchstone_Task/graphwidget.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/user/Desktop/test/Touchstone_Task/main.cpp", "MU", null ],
 		[
 			"C:/Users/user/Desktop/test/Touchstone_Task/mainwindow.cpp",

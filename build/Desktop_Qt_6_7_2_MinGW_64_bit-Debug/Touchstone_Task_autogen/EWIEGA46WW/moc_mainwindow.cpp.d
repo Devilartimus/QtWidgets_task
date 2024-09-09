@@ -1,5 +1,8 @@
 C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Touchstone_Task_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/user/Desktop/test/Touchstone_Task/mainwindow.h \
   C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Touchstone_Task_autogen/moc_predefs.h \
+  C:/Users/user/Desktop/test/Touchstone_Task/graphwidget.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/QPointF \
+  E:/qt/6.7.2/mingw_64/include/QtCore/QVector \
   E:/qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -18,6 +21,7 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qchar.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h \
@@ -31,9 +35,14 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qdir.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qfile.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qfiledevice.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qfileinfo.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qflags.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qfloat16.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qforeach.h \
@@ -44,12 +53,14 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/6.7.2/mingw_64/include/QtCore/qglobalstatic.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qhash.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qiodevicebase.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qiterable.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qline.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qlist.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qlogging.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qmalloc.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qmap.h \
@@ -101,6 +112,7 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/6.7.2/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtextstream.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qtimezone.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtmetamacros.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtnoop.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -111,12 +123,15 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/6.7.2/mingw_64/include/QtCore/qtversionchecks.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtypeinfo.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qtypes.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qurl.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
+  E:/qt/6.7.2/mingw_64/include/QtCore/qvector.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   E:/qt/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
+  E:/qt/6.7.2/mingw_64/include/QtGui/QPainter \
   E:/qt/6.7.2/mingw_64/include/QtGui/qaction.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qbitmap.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qbrush.h \
@@ -129,20 +144,32 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/6.7.2/mingw_64/include/QtGui/qimage.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
+  E:/qt/6.7.2/mingw_64/include/QtGui/qpainter.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qpalette.h \
+  E:/qt/6.7.2/mingw_64/include/QtGui/qpen.h \
+  E:/qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qpixmap.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qpolygon.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qregion.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qrgb.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qrgba64.h \
+  E:/qt/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+  E:/qt/6.7.2/mingw_64/include/QtGui/qtextoption.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   E:/qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/QFileDialog \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
   E:/qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/qfiledialog.h \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+  E:/qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
   E:/qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
   E:/qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   E:/qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -165,10 +192,13 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
@@ -178,6 +208,10 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_fwd.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_path.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
@@ -185,25 +219,34 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
@@ -242,6 +285,7 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
@@ -249,6 +293,7 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
@@ -260,22 +305,29 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/filesystem \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
@@ -306,10 +358,14 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
   E:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
@@ -348,4 +404,5 @@ C:/Users/user/Desktop/test/Touchstone_Task/build/Desktop_Qt_6_7_2_MinGW_64_bit-D
   E:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/types.h \
   E:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   E:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
-  E:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+  E:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  E:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
