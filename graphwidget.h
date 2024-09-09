@@ -12,13 +12,16 @@ class GraphWidget : public QWidget
 
 public:
     explicit GraphWidget(QWidget *parent = nullptr);
-
     void setDataPoints(const QVector<QPointF>& points);
+    void clearDataPoints();
+
 protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
     QVector<QPointF> dataPoints;
+    void drawXY(QPainter& painter);
+    void drawGraph(QPainter& painter);
 };
 
 #endif // GRAPHWIDGET_H
