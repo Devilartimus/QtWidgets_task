@@ -39,7 +39,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(670, 520, 131, 29));
+        pushButton->setGeometry(QRect(550, 520, 131, 29));
         widget = new QWidget(centralwidget);
         widget->setObjectName("widget");
         widget->setGeometry(QRect(0, 40, 801, 481));

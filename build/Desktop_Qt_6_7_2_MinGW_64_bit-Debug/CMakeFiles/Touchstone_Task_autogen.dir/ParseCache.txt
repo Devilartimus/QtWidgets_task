@@ -150,14 +150,12 @@ C:/Users/user/Desktop/test/Touchstone_Task/mainwindow.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpainter.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpalette.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpen.h
- mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpicture.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpixmap.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qpolygon.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qregion.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qrgb.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qrgba64.h
- mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qtextdocument.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qtextoption.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h
@@ -166,14 +164,19 @@ C:/Users/user/Desktop/test/Touchstone_Task/mainwindow.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/QFileDialog
- mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/QLabel
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/QWidget
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qfiledialog.h
- mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
- mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qlayout.h
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h
+ mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:E:/qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h

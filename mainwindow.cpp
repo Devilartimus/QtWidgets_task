@@ -23,7 +23,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QString filename = QFileDialog::getOpenFileName(this, "Выберите файл Touchstone", "", "Touchstone Files (*.s1p *.s2p");
+    QString filename = QFileDialog::getOpenFileName(this, "Выберите файл Touchstone", "", "Touchstone Files (*.s1p *.s2p)");
 
     if (filename.isEmpty())
     {
