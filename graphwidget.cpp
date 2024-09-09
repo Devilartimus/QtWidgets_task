@@ -20,15 +20,13 @@ void GraphWidget::paintEvent(QPaintEvent *event)
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing);
 
-    drawXY(painter);
-    if(!dataPoints.isEmpty())
-        drawGraph(painter);
-}
-
-void GraphWidget::drawXY(QPainter &painter)
-{
     painter.drawLine(10, height() - 10, width() - 10, height() - 10);
     painter.drawLine(10, 10, 10, height() - 10);
+
+    if(!dataPoints.isEmpty())
+    {
+        drawGraph(painter);
+    }
 }
 
 void GraphWidget::drawGraph(QPainter &painter)

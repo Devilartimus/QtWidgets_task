@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    setWindowTitle("Отображение графика");
+
     QVBoxLayout *layout = new QVBoxLayout(ui->widget);
     layout->addWidget(graphWidget);
 
@@ -23,23 +25,31 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QString filename = QFileDialog::getOpenFileName(this, "Выберите файл Touchstone", "", "Touchstone Files (*.s1p *.s2p)");
+    disconnect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
+
+    QString filename = QFileDialog::getOpenFileName(this, "Открыть файл Touchstone", "", "Touchstone Files (*.s1p *.s2p)", nullptr, QFileDialog::DontUseNativeDialog);
 
     if (filename.isEmpty())
     {
+        ui->label->setText("Файл не выбран");
         QMessageBox::warning(this, "Ошибка", "Файл не выбран");
+        connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
         return;
+    }else
+    {
+        connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
     }
+
+    graphWidget->clearDataPoints();
 
     if (!loadTouchstoneFile(filename))
     {
+        ui->label->setText("Ошибка при загрузке файла");
         QMessageBox::critical(this, "Ошибка", "Невозможно загрузить файл. Проверьте формат и повторите попытку.");
     } else
     {
-        QVector<QPointF> points;
-
-        graphWidget->setDataPoints(points);
         ui->label->setText("Файл успешно загружен");
+        setWindowTitle("График: " + filename);
     }
 }
 
@@ -48,6 +58,7 @@ bool MainWindow::loadTouchstoneFile(const QString &filename)
     QFile file(filename);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return false;
+
 
     QTextStream in(&file);
     QVector<QPointF> points;
